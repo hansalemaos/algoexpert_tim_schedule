@@ -1,2 +1,11 @@
-# algoexpert_tim_schedule
 Code for: https://www.youtube.com/watch?v=3Q_oYDQ2whs
+
+At what time can those 2 people have a meeting. 
+
+### person 1
+p1 = [["9:00", "10:30"], ["12:00", "13:00"], ["16:00", "18:00"]]
+p1off = [["0:00", "9:00"], ["20:00", "24:00"]]
+
+### person 2
+p2 = [["10:00", "11:30"], ["12:30", "14:30"], ["14:30", "15:00"], ["16:00", "17:00"]]
+p2off = [["0:00", "10:00"], ["18:30", "24:00"]]
