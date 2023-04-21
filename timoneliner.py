@@ -25,3 +25,14 @@ result = (
  if x[1].iloc[[0, -1]].minabs.diff().dropna().iloc[0] + 1 >= min_meeting_time])
 for date in result:
     print(date)
+  
+#       hour  min
+#start    11    0
+#end      11   59
+#       hour  min
+#start    15    0
+#end      15   59
+#       hour  min
+#start    18    0
+#end      18   29
+  
